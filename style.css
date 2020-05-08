@@ -6,9 +6,16 @@
 body {
   background: white;
 }
+.wrapper {
+  position: realtive;
+}
 .rainbow {
   height: 200px;
   overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .rainbow div {
   overflow: hidden;
